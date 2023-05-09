@@ -356,7 +356,7 @@ public class ReservasView extends JFrame {
 			Calendar inicio = txtFechaEntrada.getCalendar();
 			Calendar fin = txtFechaSalida.getCalendar();
 			int dias = -1; // Usamos -1 para contar a partir del dia siguiente
-			int diaria = 500;
+			int diaria = 20;
 			int valor;
 			
 			while(inicio.before(fin) || inicio.equals(fin)) {
